@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1. 0">
     <title>Portfolio Sergio González</title>
     <meta name="description" content="Portfolio de desarrollador web de Sergio González Domínguez">
-    <link rel="icon" type="image/png" href="icons\PageIcon.png">
+    <link rel="icon" type="image/png" href="images\icons\PageIcon.png">
     <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
 
@@ -20,25 +20,125 @@
 <body>
     <header>
         <nav>
-            <a href="#Inicio">Inicio</a>
-            <a href="#Experiencia">Experiencia</a>
-            <a href="#Proyectos">Proyectos</a>
-            <a href="#Estudios">Estudios</a>
-            <a href="#SobreMi">Sobre mí</a>
+            <a href="#Start">Inicio</a>
+            <a href="#Experience">Experiencia</a>
+            <a href="#Projects">Proyectos</a>
+            <a href="#Studies">Estudios</a>
+            <a href="#AboutMe">Sobre mí</a>
         </nav>
     </header>
 
     <main>
-        <section class="Inicio">
-            <h1>Sergio González Domínguez</h1>
-            <p>Desarrollador de software</p>
-            <p>Desarrollador de software desde hace más de 4 años con Experiencia en resolución de bugs, desarrollo de evolutivos y puestas en marcha presenciales y en remoto.</p>
+        <section class="Start">
+            <div>
+                <h1>Sergio González Domínguez</h1>
+                <p>Desarrollador de software</p>
+                <p>Desarrollador de software desde hace más de 4 años con Experiencia en resolución de bugs, desarrollo
+                    de evolutivos y puestas en marcha presenciales y en remoto.</p>
+            </div>
+            <div>
+                <button
+                    onclick="window.open('https://www.linkedin.com/in/sergio-gonz%C3%A1lez-dom%C3%ADnguez-5b473a167/', '_blank')">
+                    Linkedin
+                </button>
+
+                <button onclick="window.open('https://github.com/SergioGD96', '_blank')">GitHub</button>
+                <button onclick="window.open('mailto:paski1996@gmail.com', '_blank')">Escríbeme</button>
+                <a href="rsc/Curriculum_SergioGD.pdf" download>
+                    <button>Descargar CV</button>
+                </a>
+            </div>
+
             <picture>
-                <img src="images\MiFoto.png" alt="Una foto mía">
+                <img src="images\MyPhoto.png" alt="Una foto mía">
             </picture>
         </section>
 
+        <section class="Experience">
+            <h1>Experiencia</h1>
+            <article>
+                <picture>
+                    <img src="images/logosEmpresas/logoAsti.jpg" alt="Logo de la empresa Asti" title="Logo de la empresa Asti">
+                </picture>
+                <section>
+                    <h3>ASTI Mobile Robotics</h3>
+                    <h4>Marzo 2021 - Septiembre 2022</h4>
+                    <ul>
+                        <li>Desarrollo de aplicaciones de escritorio con servicios y diversas comunicaciones con PLCs y APIs.</li>
+                        <li>Desarrollo de evolutivos y resolución de bugs basadas en las necesidades del cliente.</li>
+                        <li>Colaboración en equipos multidisciplinares para la puesta en marcha de proyectos
+                            presenciales y en remoto.</li>
+                    </ul>
+                </section>
+                <section>
+                    <img src="images/icons/CSharpIcon.png" alt="Icono del lenguaje C#" title="Icono del lenguaje C#">
+                    <img src="images/icons/VbNETIcon.png" alt="Icono del lenguaje VB" title="Icono del lenguaje VB">
+                    <img src="images/icons/NETIcon.png" alt="Icono del framework .NET" title="Icono del framework .NET">
+                    <img src="images/icons/SQLServerIcon.png" alt="Icono de SQL server" title="Icono de SQL server">
+                    <img src="images/icons/RabbitMQIcon.png" alt="Icono de RabbitMQ" title="Icono de RabbitMQ">
+                </section>
+            </article>
+
+            <article>
+                <picture>
+                    <img src="images/logosEmpresas/logoSothis.png" alt="Logo de la empresa Sothis" title="Logo de la empresa Sothis">
+                </picture>
+                <section>
+                    <h3>Sothis</h3>
+                    <h4>Septiembre 2022 - Diciembre 2024</h4>
+                    <ul>
+                        <li>Desarrollo de aplicaciones de escritorio utilizando Opcenter APS framework.</li>
+                        <li>Desarrollo de evolutivos y resolución de bugs basadas en las necesidades del cliente.</li>
+                        <li>Colaboración en equipo en contacto diario con el cliente para el desarrollo.</li>
+                    </ul>
+                </section>
+                <section>
+                    <img src="images/icons/CSharpIcon.png" alt="Icono del lenguaje C#" title="Icono del lenguaje C#">
+                    <img src="images/icons/VbNETIcon.png" alt="Icono del lenguaje VB" title="Icono del lenguaje VB">
+                    <img src="images/icons/NETIcon.png" alt="Icono del framework .NET" title="Icono del framework .NET">
+                    <img src="images/icons/SQLServerIcon.png" alt="Icono de SQL server" title="Icono de SQL server">
+                    <img src="images/icons/OpcenterIcon.png" alt="Icono de Opcenter" title="Icono de Opcenter">
+                </section>
+            </article>
+
+            <article>
+                <picture>
+                    <img src="images/logosEmpresas/logoCSA.jpg" alt="Logo de la empresa CSA" title="Logo de la empresa CSA">
+                </picture>
+                <section>
+                    <h3>CSA</h3>
+                    <h4>Diciembre 2041 - Actualidad</h4>
+                    <ul>
+                        <li>Desarrollo de aplicaciones web basadas en ASP.NET MVC.</li>
+                        <li>Implementación de nuevas funcionalidades y resolución de bugs basadas en las necesidades del cliente.</li>
+                        <li>Colaboración en equipos multidisciplinares para la puesta en marcha de proyectos.</li>
+                    </ul>
+                </section>
+                <section>
+                    <img src="images/icons/ASPNETIcon.png" alt="Icono de ASP.NET" title="Icono de ASP.NET">
+                    <img src="images/icons/CSharpIcon.png" alt="Icono del lenguaje C#" title="Icono del lenguaje C#">
+                    <img src="images/icons/NETCoreIcon.png" alt="Icono del framework .NET core" title="Icono del framework .NET core">
+                    <img src="images/icons/BlazorIcon.png" alt="Icono de Blazor" title="Icono de Blazor">
+                </section>
+            </article>
+        </section>
+
+        <section class="Proyects">
+
+        </section>
+
+        <section class="Studies">
+
+        </section>
+
+        <section class="AboutMe">
+
+        </section>
     </main>
+
+    <footer>
+        <p>© 2025 Sergio González Domínguez</p>
+    </footer>
 
 </body>
 
