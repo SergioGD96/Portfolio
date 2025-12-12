@@ -1,0 +1,25 @@
+
+.Experience {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.ExperienceArticle {
+    padding: 35px;
+    background-color: aliceblue;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CompanyImage img {
+    width: 150px;
+    height: 150px;
+}
+
+.TecnologyIcons img {
+    width: 40px;
+    height: 40px;
+}
