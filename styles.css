@@ -1,11 +1,77 @@
+body{
+    background-color: rgba(255, 255, 255, 0.044);
+    display: flex;
+    align-content: center;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: rgb(230, 230, 230);
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 30px
+}
+
+header nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 19px;
+
+    &:hover {
+        border-radius: 200px;
+        background-color: rgb(185, 184, 188);
+        transition-duration: 0.3s;
+    }
+}
+
+main {
+    width: 70dvi;
+    margin: 90px;
+    margin-top: 150px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.Start {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    gap: 100px;
+}
+.Start img{
+    width: 350px;
+}
+
+.SocialButtons button{
+    margin-right: 10px;
+}
 
 .Experience {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
+
 .ExperienceArticle {
-    padding: 35px;
+    padding: 55px;
     background-color: aliceblue;
     border-color: black;
     display: flex;
@@ -17,9 +83,27 @@
 .CompanyImage img {
     width: 150px;
     height: 150px;
+    background-color: white;
+    border-radius: 100%;
 }
 
 .TecnologyIcons img {
+    margin-inline: 4px;
+    margin-top: 20px;
     width: 40px;
     height: 40px;
+
+    &:hover{
+        width: 50px;
+        height: 50px;
+        transition-duration: 0.3s;
+    }
+}
+
+footer{
+    height: 70px;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background: rgb(230, 230, 230);
 }
