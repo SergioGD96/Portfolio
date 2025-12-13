@@ -1,13 +1,9 @@
 body {
     background-color: rgba(255, 255, 255, 0.044);
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
     font-family: Tahoma, Arial, Helvetica, sans-serif;
 }
 
+/* ========================= HEADER ========================= */
 header {
     height: 70px;
     position: fixed;
@@ -41,22 +37,27 @@ header nav a {
 }
 
 .anchor {
-    scroll-margin-top: 90px;
+    scroll-margin-top: 130px;
 }
 
+/* ========================= MAIN ========================= */
 main {
-    width: 70dvi;
-    margin: 90px;
-    margin-top: 150px;
+    width: 70vw;
+    margin:130px auto 0 auto;
     color: rgb(0, 0, 0);
-
+    box-sizing: border-box;
 }
+
+section{
+    margin-bottom: 100px;
+}
+
+/* ========================= START SECTION ========================= */
 
 #Start {
     display: flex;
     flex-direction: row;
     margin-inline: 200px;
-    margin-bottom: 100px;
     gap: 100px;
     justify-content: center;
 }
@@ -68,6 +69,8 @@ main {
 .SocialButtons button {
     margin-right: 10px;
 }
+
+/* ========================= EXPERIENCE SECTION ========================= */
 
 .ExperienceArticles {
     display: flex;
@@ -85,6 +88,10 @@ main {
     justify-content: space-between;
 }
 
+li{
+    margin-bottom: 10px;
+}
+
 .CompanyImage img {
     width: 150px;
     height: 150px;
@@ -95,10 +102,15 @@ main {
 .TecnologyIcons {
     display: flex;
     justify-content: center;
+}
+.TecnologyIcons picture {
     width: 50px;
     height: 50px;
+    display: flex;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
 }
-
 .TecnologyIcons picture img {
     margin-inline: 6px;
     width: 40px;
@@ -106,11 +118,13 @@ main {
     transition-duration: 0.3s;
 
     &:hover {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
 
 }
+
+/* ========================= FOOTER ========================= */
 
 footer {
     height: 70px;
@@ -118,4 +132,7 @@ footer {
     left: 0;
     width: 100%;
     background: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
