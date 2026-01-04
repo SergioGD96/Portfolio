@@ -42,6 +42,7 @@ header nav a {
 
 /* ========================= MAIN ========================= */
 main {
+    display: grid;
     width: 70vw;
     margin:130px auto 0 auto;
     color: rgb(0, 0, 0);
