@@ -93,10 +93,9 @@ section{
 /* ========================= EXPERIENCE SECTION ========================= */
 
 .ExperienceArticles {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
     gap: 20px;
-    align-items: stretch;
 }
 
 .ExperienceArticle {
@@ -139,8 +138,7 @@ li{
     transition-duration: 0.3s;
 
     &:hover {
-        width: 60px;
-        height: 60px;
+        scale: 1.5;
     }
 
 }
@@ -177,7 +175,7 @@ footer {
 
 /* ========================= FOOTER ========================= */
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
 
     main {
         max-width: 100%;
@@ -196,7 +194,12 @@ footer {
     }
 
     .ExperienceArticles {
-        flex-direction: column;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .ExperienceArticle {
+        max-width: 400px;
     }
 
 }
