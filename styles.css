@@ -92,7 +92,7 @@ section{
 
 /* ========================= EXPERIENCE SECTION ========================= */
 
-.ExperienceArticles {
+.ExperienceSection {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
     gap: 20px;
@@ -136,6 +136,7 @@ li{
     width: 40px;
     height: 40px;
     transition-duration: 0.3s;
+    transition-timing-function: ease-out;
 
     &:hover {
         scale: 1.5;
@@ -182,10 +183,6 @@ footer {
         margin: 100px auto 0;
         padding-inline: clamp(16px, 4vw, 24px);
     }
-
-    section{
-        /* padding-inline: clamp(16px, 10vw, 24px); */
-    }
     
     #Start {
         flex-direction: column;
@@ -193,7 +190,7 @@ footer {
         gap: 30px;
     }
 
-    .ExperienceArticles {
+    .ExperienceSection {
         grid-template-columns: 1fr;
         justify-items: center;
     }
